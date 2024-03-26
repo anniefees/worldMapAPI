@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    background-color: lightblue;
+}
+
+.container{
+    background-color: lightblue;
+    margin:0;
+    border-color: black;
+    border-width: 3px;
+}
+
+body {
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    
+    }
+.mapSection{
+    float: left;
+    width: 75%;
+}
+
+.infoSection{
+    float: right;
+    width: 25%;
+}
+
+svg path{
+    fill: darkolivegreen;
+}
+svg path:hover{
+    fill: #f2f6f8;
+    transition: 0.7s;
+    cursor: pointer;
+}
